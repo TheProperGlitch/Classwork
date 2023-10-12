@@ -31,5 +31,8 @@ class Train {
     public int getTrains(){
         return trainsMade;
     }
+    private int sayOne(){
+        return 1;
+    }
 }
 

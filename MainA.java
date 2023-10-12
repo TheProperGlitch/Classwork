@@ -10,5 +10,8 @@ public class MainA {
         else System.out.println("unexpected falure");
         System.out.println(chocho1.getCars());
         System.out.println(chocho1.getTrains());
+        // Following code does not work because the method is private. 
+        System.out.println(chocho1.sayOne());
+
     }
 }
